@@ -1,9 +1,14 @@
 
 node_modules/
 dist/
+build/
+.firebase/
 .vs/
 .vs-code/
 .DS_Store
+
 Thumbs.db
 debug.log
 npm-debug.log
+.firebaserc
+firebase.json
