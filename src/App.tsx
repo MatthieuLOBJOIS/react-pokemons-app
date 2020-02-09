@@ -5,6 +5,7 @@ import PokemonsDetail from './pages/PokemonsDetail';
 import PageNotFound from './pages/PageNotFound';
 import PokemonEdit from './pages/PokemonEdit';
 import PokemonAdd from './pages/PokemonAdd';
+import Login from './pages/Login';
 
 const App: FunctionComponent = () => {
 	return (
@@ -21,6 +22,7 @@ const App: FunctionComponent = () => {
 				{/* Le système de gestion des routes de notre application */}
 				<Switch>
 					<Route exact path="/" component={PokemonList} />
+					<Route exact path="/login" component={Login} />
 					<Route exact path="/pokemons" component={PokemonList} />
 					<Route exact path="/pokemon/add" component={PokemonAdd} />
 					<Route exact path="/pokemons/edit/:id" component={PokemonEdit} />
